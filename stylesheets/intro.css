@@ -1,0 +1,56 @@
+.intro {
+  background-color: rgba(0, 0, 0, 0);
+  background-image: linear-gradient(rgba(5, 5, 15, 0.1), rgba(5, 5, 5, 0.9) 95%),
+                    url("../images/intro/galaxy.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: scroll, fixed;
+  background-position: 0 0%, center top;
+
+  color: #fff;
+  /* padding: 60px; */
+  /* margin-top: 76px; */
+  min-height: 1080px;
+}
+
+.intro .title-large{
+  line-height: 90%;
+  padding-top: 100px;
+  padding-left: 50px;
+  font-size: 200px;
+  margin-bottom: 18px;
+}
+
+.intro .title-medium {
+  margin-top: 100px;
+  font-size: 36px;
+  color: #808080;
+  padding-left: 65px;
+}
+
+@media (max-width: 1280px) {
+  .intro .title-large{
+    line-height: 90%;
+    padding-top: 200px;
+    padding-left: 50px;
+    font-size: 120px;
+    margin-bottom: 18px;
+  }
+}
+
+@media (max-width: 645px) {
+  .intro .title-large{
+    line-height: 90%;
+    padding-top: 200px;
+    padding-left: 10px;
+    font-size: 60px;
+    margin-bottom: 18px;
+  }
+
+  .intro .title-medium {
+    margin-top: 100px;
+    font-size: 24px;
+    color: #808080;
+    padding-left: 10px;
+  }
+}

@@ -1,0 +1,45 @@
+.fares {
+  background-color: rgba(0, 0, 0, 0);
+  background-image: linear-gradient(rgba(5, 5, 5, 0.7), rgba(5, 5, 15, 0) 95%),
+                    url("../images/intro/galaxy.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: scroll, fixed;
+  background-position: 0 0%, center top;
+
+  color: #fff;
+
+  min-height: 1000px;
+
+  padding-top: 30px;
+}
+
+.fares .container {
+  margin-top: 200px;
+}
+
+.fare-item {
+  padding: 30px;
+  background-color: rgba(5.5, 5.5, 5.5, 0.6);
+  margin: 30px;
+}
+
+.fares .title-large {
+  font-size: 24px;
+}
+
+.fares-title {
+  height: 85px;
+}
+
+.fare-features {
+  line-height: 150%;
+  height: 220px;
+}
+
+@media (max-width: 830px) {
+  .fares .container {
+    margin-top: 0;
+    padding: 10px 0px; 
+  }
+}

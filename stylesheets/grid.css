@@ -1,0 +1,31 @@
+body {
+  background-color: #0e0e0e;
+}
+
+.container {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.container:after {
+  content: "";
+  visibility: hidden;
+  display: block;
+  height: 0;
+  clear: both;
+}
+
+.column-1-3 {
+  width: 33.33%;
+  float: left;
+}
+
+@media (max-width: 830px) {
+  .column-1-3 {
+    margin: auto;
+    width: 100%;
+    float: none;
+  }
+}
