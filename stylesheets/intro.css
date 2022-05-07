@@ -13,7 +13,7 @@
   min-height: 1080px;
 }
 
-.intro .title-large{
+.title-intro {
   line-height: 90%;
   padding-top: 100px;
   padding-left: 50px;
@@ -29,7 +29,7 @@
 }
 
 @media (max-width: 1280px) {
-  .intro .title-large{
+  .title-intro{
     line-height: 90%;
     padding-top: 200px;
     padding-left: 50px;
@@ -39,7 +39,7 @@
 }
 
 @media (max-width: 645px) {
-  .intro .title-large{
+  .title-intro{
     line-height: 90%;
     padding-top: 200px;
     padding-left: 10px;
