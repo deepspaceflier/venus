@@ -12,3 +12,9 @@
   background: #fff;
   color: black;
 }
+
+.button-white:hover {
+  background: #0e0e0e;
+  color: #fff;
+  transition: all ease 0.1s;
+}
